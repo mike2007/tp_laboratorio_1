@@ -106,15 +106,21 @@ void factorial(int x)
         return;
 
     }
-
-        fact=x-1;
-        rta=x;
-        while(fact>=1)
+    if(x!=1)
         {
-           rta=rta*fact;
-           fact--;
+            fact=x-1;
+            rta=x;
+            while(fact>=1)
+            {
+                rta=rta*fact;
+                fact--;
+            }
+            printf("\nEl factorial es: %d\n",rta);
         }
-        printf("\nEl factorial es: %d\n",rta);
+    else if(x==1)
+    {
+        printf("\nEl factorial es: 0\n");
+    }
 
 }
 
