@@ -100,9 +100,9 @@ void factorial(int x)
 {
     int fact,rta,band;
 
-    while(x==0)
+    while(x<1)
     {
-        printf("\nError. no existe Factorial de 0\n");
+        printf("\nError. no existe Factorial de %d\n,x");
         return;
 
     }
