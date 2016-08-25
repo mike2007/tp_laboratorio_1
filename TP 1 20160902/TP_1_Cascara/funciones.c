@@ -64,7 +64,7 @@ void division(int x, int y)
     float rta;
     while(y==0)
     {
-        printf("\nNo se puede dividir por 0.");
+        printf("\nNo se puede dividir por 0\n.");
         return;
     }
     rta=(float)x/y;
